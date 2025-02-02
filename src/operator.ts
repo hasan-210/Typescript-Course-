@@ -1,7 +1,6 @@
 
 
-const userInfo:{
-    username:string,
+const userInfo:{username:string,
     age:number,
     isMarrid:boolean
     } = {
@@ -21,7 +20,7 @@ const copyUserInfo:{
 console.log(copyUserInfo);
 
 
-
+// Destructuring
 const {username,age,isMarrid}:{username:string,age:number,isMarrid:boolean} = {
     username:"hasan",
     age:25,
