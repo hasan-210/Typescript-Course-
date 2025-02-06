@@ -6,13 +6,13 @@
 //     isMarrid:boolean,
 //     address?:string // ?: => this field is optional
 // }
-interface User {
+interface IUser {
     username:string,
     age:number,
     isMarrid:boolean,
 }
 
-const userInfomation:User = {
+const userInfomation:IUser = {
     username:"hasan",
     age:25,
     isMarrid:false
@@ -22,11 +22,11 @@ const userInfomation:User = {
 
 // _____________________Export__________Extends_______________________//
 
-interface NewUser extends User {
+interface INewUser extends IUser {
     address:string   // add new field
 }
 
-const newUser:NewUser= {
+const newUser:INewUser= {
     ...userInfo,
     address:"Syria"
 }
