@@ -29,4 +29,13 @@ function printLanguage([a,b]:string[]){
     return `FirstLang : ${a} , SecondLang : ${b}`;
 }
 
-console.log(printLanguage(['javascript','php','python']));
+// console.log(printLanguage(['javascript','php','python']));
+
+
+/** Funtion Rest Parameters  || A rest parameter must be last in a parameter list */  
+
+function sumNumbers(text:string,...numbers:number[]){
+    return text +  numbers.reduce((sum,num)=>sum + num , 0);
+}
+
+console.log(sumNumbers('the sum is : ',1,2,9));
