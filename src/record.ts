@@ -18,12 +18,12 @@ console.log(userDesc);
 
 
 // Record
-const car:Record<string,string | number> = {
-    type:"bmw",
-    number:12345678,
-}
+// const car:Record<string,string | number> = {
+//     type:"bmw",
+//     number:12345678,
+// }
 
-car['color'] = "red"
+// car['color'] = "red"
 console.log(car);
 
 
